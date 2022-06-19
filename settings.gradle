@@ -10,9 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' } // <- here we go
+        jcenter()
     }
 }
 rootProject.name = "RetroHelper"
 include ':app'
 include ':RetroHelper'
-include ':library'
